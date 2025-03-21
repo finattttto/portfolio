@@ -24,27 +24,25 @@ export default function Header() {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-center relative">
-          {/* Logo - Agora é um Link para "/" */}
           <Link
             href="/"
-            className="hidden md:flex absolute left-0 items-center gap-3 font-bold text-white group"
+            className="md:flex absolute left-0 items-center gap-3 font-bold text-white group"
           >
             <div className="size-9 rounded-lg bg-gradient-to-br from-primary to-primary/70 flex items-center justify-center text-primary-foreground shadow-lg transition-transform group-hover:scale-105">
               LF
             </div>
-            <span className="text-lg tracking-tight transition-colors group-hover:text-white/80">
+            <span className="hidden md:flex text-lg tracking-tight transition-colors group-hover:text-white/80">
               Luan Finatto
             </span>
           </Link>
   
-          {/* Navigation */}
           <nav className="flex justify-center">
             <div className="flex gap-4 sm:gap-8">
               <Link
                 href="/portfolio"
                 className="text-xs sm:text-sm font-medium text-white/90 transition-colors hover:text-white relative group"
               >
-                Portfolio
+                Portfólio
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
               </Link>
               <Link
@@ -59,7 +57,7 @@ export default function Header() {
                 download
                 className="text-xs sm:text-sm font-medium text-white/90 transition-colors hover:text-white relative group"
               >
-                Curriculum
+                Currículo
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
               </a>
             </div>

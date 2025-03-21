@@ -89,8 +89,7 @@ export default function About() {
               prazer, e, após a conclusão do curso, continuo buscando me
               aprimorar de forma autodidata. Acredito que o aprendizado nunca
               para, por isso, estou sempre em busca de novas fontes de
-              conhecimento, seja em cursos, livros ou contribuindo para projetos
-              open-source, para me manter atualizado e continuar evoluindo na
+              conhecimento, seja em cursos, livros ou criando novos projetos, para me manter atualizado e continuar evoluindo na
               profissão.
             </p>
           </section>

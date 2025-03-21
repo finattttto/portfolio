@@ -43,7 +43,7 @@ export default function Particles() {
       ctx.fillStyle = "white"
       ctx.save()
 
-      const fontSize = isMobile ? Math.min(canvas.width * 0.12, 50) : Math.min(canvas.width * 0.1, 70)
+      const fontSize = isMobile ? Math.min(canvas.width * 0.12, 80) : Math.min(canvas.width * 0.1, 90)
       ctx.font = `bold ${fontSize}px 'Inter', sans-serif`
       ctx.textAlign = "center"
       ctx.textBaseline = "middle"

@@ -20,6 +20,15 @@ const projects = [
     github: "https://github.com/finattttto/chale-aconchego",
     tech: ["Frontend"],
   },
+  {
+    id: 3,
+    title: "E-Commerce",
+    description:
+      "Aplicação React com API Spring Boot para um E-Commerce.",
+    link: "https://github.com/finattttto/projetoweb-2",
+    github: "https://github.com/finattttto/projetoweb-2",
+    tech: ["Frontend", "Backend"],
+  },
 ];
 
 export default function Portfolio() {
